@@ -1,0 +1,6 @@
+.info-form > div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 8px;
+}

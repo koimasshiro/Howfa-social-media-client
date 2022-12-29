@@ -1,0 +1,56 @@
+.suggestions-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0.8rem;
+    gap: 1rem;
+    font-size: 14px;
+
+}
+.user-details{
+    display: flex;
+    gap: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-img{
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 50%;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.user-name>span:nth-last-of-type(1){
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(30deg, cyan, purple);
+    cursor: pointer;
+}
+.btn:hover{
+    color: purple;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid cyan;
+    border-left: 2px solid purple;
+    border-right: 2px solid cyan;
+    background: transparent;
+}
+.btn:disabled{
+    background: silver;
+    pointer-events: none;
+    border: none;
+}

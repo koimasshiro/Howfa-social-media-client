@@ -1,0 +1,38 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+.welcome-header{
+    font-size: 3.5rem;
+    background: linear-gradient(60deg, cyan, purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-header{
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.welcome-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gs-btn{
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+.login-link{
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+.login-link:hover{
+    color: purple;
+    cursor: pointer;
+}

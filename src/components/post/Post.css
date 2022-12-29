@@ -1,0 +1,39 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.profile-pic{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--crdColor);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.post-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-head>div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+}
+.post-img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.post-react{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+}

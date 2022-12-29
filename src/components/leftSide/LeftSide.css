@@ -1,0 +1,32 @@
+.search-logo{
+    display: flex;
+    gap: 0.75rem;
+}
+.search{
+    display: flex;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 5px;
+}
+.search-input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    cursor: pointer;
+}
